@@ -15,12 +15,6 @@ namespace MVCLabExercise.Controllers
             return View();
         }
 
-        //public IActionResult MileageResult(double mpg, double gallons)
-        //{
-        //    double range = mpg * gallons;
-
-        //    return View("MileageResult", range);
-        //}
 
         public IActionResult MileageResult(Trip trip)
         {
