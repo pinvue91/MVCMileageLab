@@ -6,7 +6,8 @@
 <h1>MileageForm</h1>
 
 <form asp-controller="Mileage" asp-action="MileageResult" method="post">
-    MPG: <input type="number" name="mpg" step="0.1"/>
-    Gallons: <input type="number" name="gallons" step="0.1"/>
+    MPG: <input type="number" name="MPG" step="0.1"/>
+    Gallons: <input type="number" name="Gallons" step="0.1"/>
+    Trip Distance: <input type="number" name="TripMiles" value="0" />
     <button type="submit">Calculate Range</button>
 </form>

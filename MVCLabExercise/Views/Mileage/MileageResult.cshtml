@@ -3,8 +3,12 @@
     ViewData["Title"] = "MileageResult";
 }
 
-@model double
+@model Trip
     <a asp-controller="Mileage" asp-action="MileageForm">Return to Mileage Form</a>
 
-    <h2>Your range is at @Model miles.</h2>
+
+    <h2>Your range is at @Model.Range miles.</h2>
+    <h2>Your destination is @Model.TripMiles miles away.</h2>
+    <h2 style="color: @Model.Color">@Model.Message</h2>
+
 
