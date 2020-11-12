@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "MileageForm";
+}
+
+<h1>MileageForm</h1>
+
+<form asp-controller="Mileage" asp-action="MileageResult" method="post">
+    MPG: <input type="number" name="mpg" step="0.1"/>
+    Gallons: <input type="number" name="gallons" step="0.1"/>
+    <button type="submit">Calculate Range</button>
+</form>
